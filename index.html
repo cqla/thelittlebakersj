@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Little Baker SJ | Asian-Inspired Bento Cakes & Treats</title>
+  <meta name="description" content="Handcrafted Asian-inspired bento cakes and cookies in San Jose, CA. Custom designs, specialty flavors, and baked goodies made with love.">
+  <link rel="icon" type="image/png" href="images/cakeicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <a href="#" class="nav-logo">
+      <img src="images/logo_noSJ.png" alt="The Little Baker" class="logo-img">
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="https://www.instagram.com/thelittlebaker_sj/" target="_blank" rel="noopener" class="nav-cta">Order Now</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-text">
+        <span class="hero-badge">San Jose, CA</span>
+        <h1>
+          <span class="hero-line-1">Asian-Inspired</span>
+          <span class="hero-line-2">Bento Cakes</span>
+          <span class="hero-line-3">& Treats</span>
+        </h1>
+        <p class="hero-subtitle">Little cakes for any occasion! Handcrafted with love, one tiny cake at a time.</p>
+        <div class="hero-actions">
+          <a href="#menu" class="btn btn-primary">View Menu</a>
+          <a href="https://www.instagram.com/thelittlebaker_sj/" target="_blank" rel="noopener" class="btn btn-outline">Order Now</a>
+        </div>
+      </div>
+      <div class="hero-images">
+        <div class="hero-img-main">
+          <img src="images/menu/custom/kiki.jpeg" alt="Custom bento cake" loading="eager">
+        </div>
+        <div class="hero-img-float hero-img-float-1">
+          <img src="images/menu/specialty/strawberriesandcream.jpeg" alt="Strawberries and cream cake" loading="eager">
+        </div>
+        <div class="hero-img-float hero-img-float-2">
+          <img src="images/menu/custom/frogs.jpeg" alt="Custom frog cake" loading="eager">
+        </div>
+        <div class="hero-doodle hero-doodle-1">&#10045;</div>
+        <div class="hero-doodle hero-doodle-2">&#9829;</div>
+        <div class="hero-doodle hero-doodle-3">&#10022;</div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image reveal">
+          <div class="about-image-frame">
+            <img src="images/about_tina.png" alt="Tina, the little baker" loading="lazy">
+          </div>
+          <div class="about-image-accent"></div>
+        </div>
+        <div class="about-text reveal">
+          <span class="section-tag">Meet the baker</span>
+          <h2>Hi, I'm Tina!</h2>
+          <p>I'm a Vietnamese American baker based in San Jose, CA. What started as a pandemic hobby quickly turned into something I truly love. Every cake is handcrafted by me with carefully chosen flavors inspired by my Asian heritage.</p>
+          <p>The name "The Little Baker" is a nod to both the tiny bento cakes I make and, well, my height (4'10" and proud!). Each 4-inch cake is made to order with fresh ingredients and lots of love.</p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number">4"</span>
+              <span class="stat-label">Cake Size</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">6+</span>
+              <span class="stat-label">Flavors</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Handmade</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section class="menu" id="menu">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">What we bake</span>
+        <h2>Our Menu</h2>
+        <p class="section-desc">From custom designs to specialty flavors, each bento cake is a tiny edible masterpiece.</p>
+      </div>
+
+      <!-- Category Tabs -->
+      <div class="menu-tabs reveal">
+        <button class="menu-tab active" data-tab="custom">Custom Cakes</button>
+        <button class="menu-tab" data-tab="specialty">Specialty Cakes</button>
+        <button class="menu-tab" data-tab="cookies">Cookies</button>
+      </div>
+
+      <!-- Custom Cakes -->
+      <div class="menu-panel active" id="panel-custom">
+        <div class="menu-intro reveal">
+          <p>Choose your flavor and design! Each 4" bento cake feeds 1-3 people and comes with a complimentary spoon.</p>
+        </div>
+        <div class="custom-tiers">
+          <div class="tier-card reveal">
+            <div class="tier-header">
+              <span class="tier-name">Simple Designs</span>
+              <span class="tier-price">from $25</span>
+            </div>
+            <div class="tier-images">
+              <img src="images/cakes/custom/tier1/sqhello.png" alt="Hello cake" loading="lazy">
+              <img src="images/cakes/custom/tier1/sqlove.png" alt="Love cake" loading="lazy">
+              <img src="images/cakes/custom/tier1/sqsmiley.png" alt="Smiley cake" loading="lazy">
+              <img src="images/cakes/custom/tier1/sqstrawberries.png" alt="Strawberry cake" loading="lazy">
+            </div>
+          </div>
+          <div class="tier-card reveal">
+            <div class="tier-header">
+              <span class="tier-name">Detailed Designs</span>
+              <span class="tier-price">from $28</span>
+            </div>
+            <div class="tier-images">
+              <img src="images/cakes/custom/tier3/sqducky.png" alt="Ducky birthday cake" loading="lazy">
+              <img src="images/cakes/custom/tier3/sqkirby.png" alt="Kirby cake" loading="lazy">
+              <img src="images/cakes/custom/tier3/sqpig.png" alt="Pig cake" loading="lazy">
+              <img src="images/cakes/custom/tier3/sqfall.png" alt="Fall cake" loading="lazy">
+            </div>
+          </div>
+          <div class="tier-card reveal">
+            <div class="tier-header">
+              <span class="tier-name">Character Designs</span>
+              <span class="tier-price">from $32</span>
+            </div>
+            <div class="tier-images">
+              <img src="images/cakes/custom/tier4/sqfrog.png" alt="Frog cake" loading="lazy">
+              <img src="images/cakes/custom/tier4/sqkirby.png" alt="Kirby character cake" loading="lazy">
+              <img src="images/cakes/custom/tier4/sqfish.png" alt="Fish cake" loading="lazy">
+              <img src="images/cakes/custom/tier4/sqbears.png" alt="Bears cake" loading="lazy">
+            </div>
+          </div>
+        </div>
+        <div class="flavor-list reveal">
+          <h3>Available Flavors</h3>
+          <div class="flavors">
+            <span class="flavor">Vanilla</span>
+            <span class="flavor">Chocolate</span>
+            <span class="flavor">Mocha</span>
+            <span class="flavor">Ube</span>
+            <span class="flavor flavor-premium">Thai Tea <small>+$4</small></span>
+            <span class="flavor flavor-premium">Matcha <small>+$4</small></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Specialty Cakes -->
+      <div class="menu-panel" id="panel-specialty">
+        <div class="specialty-grid">
+          <div class="specialty-card reveal">
+            <div class="specialty-img">
+              <img src="images/menu/specialty/strawberriesandcream.jpeg" alt="Strawberries and Cream" loading="lazy">
+            </div>
+            <div class="specialty-info">
+              <h3>Strawberries & Cream</h3>
+              <p>Vanilla chiffon, strawberry whipped cream frosting, fresh strawberry</p>
+              <span class="specialty-price">$28</span>
+            </div>
+          </div>
+          <div class="specialty-card reveal">
+            <div class="specialty-img">
+              <img src="images/menu/specialty/cookiesandcream.jpeg" alt="Cookies and Cream" loading="lazy">
+            </div>
+            <div class="specialty-info">
+              <h3>Cookies & Cream</h3>
+              <p>Chocolate chiffon, Oreo whipped cream frosting</p>
+              <span class="specialty-price">$26</span>
+            </div>
+          </div>
+          <div class="specialty-card reveal">
+            <div class="specialty-img">
+              <img src="images/menu/specialty/thaiteaboba.jpeg" alt="Thai Tea Boba" loading="lazy">
+            </div>
+            <div class="specialty-info">
+              <h3>Thai Tea Boba</h3>
+              <p>Thai tea chiffon, thai tea custard cream, brown sugar boba</p>
+              <span class="specialty-price">$32</span>
+            </div>
+          </div>
+          <div class="specialty-card reveal">
+            <div class="specialty-img">
+              <img src="images/menu/specialty/strawberrymatcha.jpeg" alt="Strawberry Matcha" loading="lazy">
+            </div>
+            <div class="specialty-info">
+              <h3>Strawberry Matcha</h3>
+              <p>Matcha chiffon, matcha cream, fresh strawberry slices, gold flakes</p>
+              <span class="specialty-price">$30</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cookies -->
+      <div class="menu-panel" id="panel-cookies">
+        <div class="cookies-grid">
+          <div class="cookie-card reveal">
+            <div class="cookie-img">
+              <img src="images/menu/cookies/matchacookies.jpeg" alt="Matcha White Chocolate Chip Cookies" loading="lazy">
+            </div>
+            <div class="cookie-info">
+              <h3>Matcha White Chocolate Chip</h3>
+              <div class="cookie-prices">
+                <span>6 for $18</span>
+                <span>12 for $34</span>
+              </div>
+            </div>
+          </div>
+          <div class="cookie-card reveal">
+            <div class="cookie-img">
+              <img src="images/menu/cookies/ubecookies.jpeg" alt="Ube Crinkle Cookies" loading="lazy">
+            </div>
+            <div class="cookie-info">
+              <h3>Ube Crinkle</h3>
+              <div class="cookie-prices">
+                <span>6 for $18</span>
+                <span>12 for $34</span>
+              </div>
+            </div>
+          </div>
+          <div class="cookie-card reveal">
+            <div class="cookie-img">
+              <img src="images/menu/cookies/froggycookies.jpeg" alt="Froggy Matcha Cookies" loading="lazy">
+            </div>
+            <div class="cookie-info">
+              <h3>Froggy Matcha White Choc</h3>
+              <div class="cookie-prices">
+                <span>6 for $22</span>
+                <span>12 for $42</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How to Order -->
+  <section class="how-to-order">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Easy as 1-2-3</span>
+        <h2>How to Order</h2>
+      </div>
+      <div class="steps-grid">
+        <div class="step reveal">
+          <div class="step-number">1</div>
+          <h3>Fill Out the Form</h3>
+          <p>Grab a spot when the order form drops on Instagram (they go fast!)</p>
+        </div>
+        <div class="step-connector reveal"></div>
+        <div class="step reveal">
+          <div class="step-number">2</div>
+          <h3>Get Confirmed</h3>
+          <p>Wait for a text confirmation, then pay within 24 hours via Venmo or Zelle</p>
+        </div>
+        <div class="step-connector reveal"></div>
+        <div class="step reveal">
+          <div class="step-number">3</div>
+          <h3>Pick Up & Enjoy</h3>
+          <p>Pick up your treats in San Jose between 3-5 PM and enjoy!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Our creations</span>
+        <h2>Gallery</h2>
+        <p class="section-desc">A peek at some of our favorite designs. Every cake is a tiny work of art!</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-item-tall reveal">
+          <img src="images/menu/custom/starrynight.jpeg" alt="Starry Night cake" loading="lazy">
+        </div>
+        <div class="gallery-item reveal">
+          <img src="images/menu/custom/duckybday.jpeg" alt="Ducky birthday cake" loading="lazy">
+        </div>
+        <div class="gallery-item reveal">
+          <img src="images/menu/custom/fishbday.jpeg" alt="Fish birthday cake" loading="lazy">
+        </div>
+        <div class="gallery-item gallery-item-wide reveal">
+          <img src="images/menu/custom/happytears.jpeg" alt="Happy tears cake" loading="lazy">
+        </div>
+        <div class="gallery-item reveal">
+          <img src="images/menu/custom/toystory.jpeg" alt="Toy Story cake" loading="lazy">
+        </div>
+        <div class="gallery-item reveal">
+          <img src="images/menu/custom/frogs.jpeg" alt="Frog cake" loading="lazy">
+        </div>
+        <div class="gallery-item gallery-item-tall reveal">
+          <img src="images/menu/custom/minicake.jpeg" alt="Mini cake" loading="lazy">
+        </div>
+        <div class="gallery-item reveal">
+          <img src="images/menu/specialty/strawberrymatcha.jpeg" alt="Strawberry matcha cake" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section class="reviews">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Kind words</span>
+        <h2>What People Say</h2>
+      </div>
+      <div class="reviews-track" id="reviewsTrack">
+        <div class="review-card">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"My bf doesn't eat too much sweets and he's loving it. Literally telling me how much he loves it."</p>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"The cookies were super soft yet a bit crispy on the outside. Melting inside of my mouth!"</p>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"The strawberry cream was AMAZING. It tasted like actual fresh strawberries. And the cookies - SOFTEST EVER!"</p>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"Both cakes were absolute perfection! So moist and delicious! Best carrot cake I've had!"</p>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"Sooo good! I usually don't like cake but this is one of the best cakes we've tasted!"</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Questions?</span>
+        <h2>FAQ</h2>
+      </div>
+      <div class="faq-grid">
+        <div class="faq-item reveal">
+          <button class="faq-question" aria-expanded="false">
+            <span>How can I order?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Order forms are released on my Instagram bio every 2 weeks! For big orders (5+ bento cakes, 6" or 9" cakes), DM me on Instagram.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-question" aria-expanded="false">
+            <span>How fast do you sell out?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Usually within 5 minutes or less! Demand is high, so set your reminders.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-question" aria-expanded="false">
+            <span>What forms of payment do you take?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Venmo and Zelle are accepted. Payment must be made within 24 hours of receiving your invoice.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-question" aria-expanded="false">
+            <span>Where and when is pickup?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>San Jose, CA between 3-5 PM. Late fee is $10 per 20 minutes, but you can change your pickup time if you ask at least 2 hours ahead!</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-question" aria-expanded="false">
+            <span>Common allergens?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Wheat, dairy, and eggs. No nuts!</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-question" aria-expanded="false">
+            <span>How long do cakes last?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Up to 5 days stored in original packaging in the fridge.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-question" aria-expanded="false">
+            <span>How much can I order at once?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>2 bento cakes and 12 cookies per order form. For bigger orders, DM on Instagram 3-4 weeks in advance.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-question" aria-expanded="false">
+            <span>Do you deliver or ship?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Pickup only for now! The cakes are too delicate to ship, but delivery is a future goal.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="images/logo2.png" alt="The Little Baker SJ" class="footer-logo">
+          <p>Handcrafted Asian-inspired bento cakes & treats in San Jose, CA.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#menu">Menu</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#faq">FAQ</a>
+        </div>
+        <div class="footer-social">
+          <h4>Follow Along</h4>
+          <div class="social-links">
+            <a href="https://www.instagram.com/thelittlebaker_sj/" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="https://www.tiktok.com/@thelittlebaker_sj" target="_blank" rel="noopener" aria-label="TikTok">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1 0-5.78 2.92 2.92 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 3 15.57 6.33 6.33 0 0 0 9.37 22a6.33 6.33 0 0 0 6.37-6.22V9.4a8.16 8.16 0 0 0 3.85.96V7.04a4.85 4.85 0 0 1-.59-.05l.59-.3z"/></svg>
+            </a>
+          </div>
+          <p class="footer-handle">@thelittlebaker_sj</p>
+        </div>
+        <div class="footer-info">
+          <h4>Info</h4>
+          <p>San Jose, CA</p>
+          <p>Pickup: 3-5 PM</p>
+          <p>Payment: Venmo & Zelle</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 The Little Baker SJ. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
